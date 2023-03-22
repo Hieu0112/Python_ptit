@@ -1,0 +1,6 @@
+l1=set(input().lower().split())
+l2=set(input().lower().split())
+hop =sorted(list(l1|l2))
+giao=sorted(list(l1&l2))
+print(" ".join(hop))
+print(" ".join(giao))
